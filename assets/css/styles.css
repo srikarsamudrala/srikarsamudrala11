@@ -786,7 +786,7 @@ p{
     .mine{
         
         text-align: center;
-        left: 13%;
+        left: 10%;
         font-size: 40px;
     }
      span{
@@ -798,6 +798,12 @@ p{
 {
     .mine{
         text-align: left;
+    }
+   .mine{
+        
+        text-align: center;
+        left: 10%;
+        font-size: 40px;
     }
 }
 /* Fill up */
