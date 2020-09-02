@@ -233,12 +233,13 @@ img{
   left: 0;
   top: 2rem;
   background-color: var(--first-color);
+    z-index: auto;
 }
 .nav__logo{
   color: var(--second-color);
 }
 .nav__toggle{
-  color: var(--second-color);
+  color: var(--clr-pop);
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -489,11 +490,10 @@ p {
     
 }
 .pupu{
-      color: transparent;
-      background-image: linear-gradient(to right , #ffff4d,#282e3c);
-      background-size: 300%;
+    color: transparent;
+    background-image: linear-gradient(to right , #ffff4d,#282e3c);
+    background-size: 300%;
      -webkit-background-clip: text;
-    
     
 }
 h1 span{
@@ -501,8 +501,8 @@ h1 span{
 }
 .popo{
     color: transparent;
-    background-image: linear-gradient(to right , #009FFD,#2A2A72);
-    background-size: 135%;
+    background-image: linear-gradient(to right, #009FFD,#2A2A72);
+    background-size: 135;
      -webkit-background-clip: text;
     
 }
@@ -513,28 +513,13 @@ h1 span{
     background-image: linear-gradient(to right , #4dc6ff,#DD2A7B,#8134AF);
     
     -webkit-background-clip: text;
-    animation: animi 6s linear infinite;
-    background-size: 200%;
+    
+    background-size: 500%;
     font-family: Proxima%20Nova%20bold.otf;
      
         
 }
 
-@keyframes animi
-{
-    0%
-    {
-        background-position: 0% 100%;
-    }
-    50%
-    {
-        background-position: 100% 0%;
-    }
-    100%
-    {
-        background-position: 0% 100%;
-    }
-}
 
 
 p{
@@ -646,9 +631,8 @@ p{
         top: 70px;
     }
 
-    .dark-mode-toggle{
-        top: 22px;
-    }
+    
+    
   .nav{
     height: calc(var(--header-height) + 1rem);
       z-index: 1100;
@@ -776,9 +760,7 @@ p{
         width: 0px;
     }
     
-    .dark-mode-toggle{
-        top: 6px;
-    }
+   
     
     .about__img img{
         width: 300px;
@@ -800,15 +782,13 @@ p{
         display: block;
     }
     
+    
 }
-@media screen and (max-width: 344px)
+@media screen and (max-width: 411px)
 {
     .mine{
         text-align: left;
-    }
-   .mine{
-        
-        text-align: center;
+         text-align: center;
         left: 4%;
         font-size: 40px;
     }
@@ -830,4 +810,5 @@ h1 {
     margin-top: 0px;
     color: #D3D3D3;
 }
+
 
